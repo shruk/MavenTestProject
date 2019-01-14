@@ -8,7 +8,7 @@
 # Eclipse project files
 .project
 .classpath
-.settings
+**/.settings
 .springBeans
 
 #output files
