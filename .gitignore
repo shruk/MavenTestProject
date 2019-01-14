@@ -1,0 +1,29 @@
+# log files
+*.log
+
+# IDEA project files
+*.iml
+*.idea/
+
+# Eclipse project files
+.project
+.classpath
+.settings
+.springBeans
+
+#output files
+*.class
+
+# target directories
+target/
+overlays/
+artifacts/
+activemq/
+build/
+
+#annoying files
+create.ddl
+drop.ddl
+derby.log
+/bin/
+.bash_history
