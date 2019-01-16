@@ -18,11 +18,14 @@ public class BitwiseTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void testOR()
     {
         int number1 = 12, number2 = 25, result;
     	
-    	result = number1 | number2;
-    	logger.info(result);
+        result = number1 | number2; //bitwise oepration for integer
+        System.out.println("testOR result is "+result); //result is 12 | 25 = 29
+        //logger.info("**************************************************");
+        //logger.info("shouldAnswerWithTrue result is "+result);
+        //logger.info("**************************************************");
     }
 }
