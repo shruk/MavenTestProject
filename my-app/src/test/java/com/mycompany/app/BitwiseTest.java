@@ -2,6 +2,8 @@ package com.mycompany.app;
 
 import static org.junit.Assert.assertTrue;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.junit.Test;
 
 /**
@@ -9,6 +11,9 @@ import org.junit.Test;
  */
 public class BitwiseTest 
 {
+
+    final static Logger logger = Logger.getLogger(BitwiseTest.class);
+
     /**
      * Rigorous Test :-)
      */
@@ -18,6 +23,6 @@ public class BitwiseTest
         int number1 = 12, number2 = 25, result;
     	
     	result = number1 | number2;
-    	System.out.println(result);
+    	logger.info(result);
     }
 }
