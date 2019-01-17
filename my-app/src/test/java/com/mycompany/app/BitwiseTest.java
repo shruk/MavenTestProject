@@ -2,8 +2,11 @@ package com.mycompany.app;
 
 import static org.junit.Assert.assertTrue;
 
+import java.io.Console;
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -28,4 +31,6 @@ public class BitwiseTest
         //logger.info("shouldAnswerWithTrue result is "+result);
         //logger.info("**************************************************");
     }
+
+
 }
